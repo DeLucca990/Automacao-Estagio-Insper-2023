@@ -2,7 +2,9 @@
 * Aluno: Pedro De Lucca S C Ferro
 * Área: Gestão de Pesquisa
 ## Descrição:
-Por meio desse README pretendo mostrar como consegui fazer o scraping de dados do Linkedin, assim como a automação de algumas tarefas na plataforma do Insper e na plataforma Lattes para buscar informações dos docentes.
+Por meio desse README pretendo mostrar como consegui fazer o scraping de dados do Linkedin, assim como a automação de algumas tarefas na plataforma do Insper e na plataforma Lattes para buscar informações dos egressos.
+
+Todo o trablaho foi feito focando em atualizar/adicionar informações dos egressos relacionados ao Strictu Senso (Mestrado e Doutorado) do [Insper](https://www.insper.edu.br/). Para isso, foi necessário realizar o scraping de dados do Linkedin e, posteriormente, automatizar a busca de informações na [plataforma do Insper](https://cgi.insper.edu.br/PortfolioDocente/) e na [plataforma Lattes](https://lattes.cnpq.br/).
 ## Automação Linkedin:
 Para a automação do Linkedin, utilizei uma ferramenta disponível gratuitamente (Trial de 14 dias) chamada [PhantomBuster](https://phantombuster.com/). Essa ferramenta permite que você crie robôs que executam tarefas repetitivas no Linkedin, como por exemplo, acessar o perfil de um usuário e extrair informações como nome, cargo, empresa, etc. Leia a [documentação](https://phantombuster.com/automations/linkedin/3112/linkedin-profile-scraper/tutorial) disponível no site para saber a melhor maneira de se extrair os dados. 
 
