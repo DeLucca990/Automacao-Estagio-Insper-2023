@@ -1,5 +1,6 @@
 # Estágio de Férias Insper 2023.1:
 * Aluno: Pedro De Lucca S C Ferro
+* Orientadora: Vanessa Boarati
 * Área: Gestão de Pesquisa
 ## Descrição:
 Por meio desse README pretendo mostrar como consegui fazer o scraping de dados do Linkedin, assim como a automação de algumas tarefas na plataforma do Insper e na plataforma Lattes para buscar informações dos egressos.
