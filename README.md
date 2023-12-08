@@ -1,15 +1,18 @@
-# Estágio de Férias Insper 2023:
+# Estágio de Férias Insper 2023.1:
 * Aluno: Pedro De Lucca S C Ferro
 * Área: Gestão de Pesquisa
 ## Descrição:
 Por meio desse README pretendo mostrar como consegui fazer o scraping de dados do Linkedin, assim como a automação de algumas tarefas na plataforma do Insper e na plataforma Lattes para buscar informações dos egressos.
 
-Todo o trablaho foi feito focando em atualizar/adicionar informações dos egressos relacionados ao Strictu Senso (Mestrado e Doutorado) do [Insper](https://www.insper.edu.br/). Para isso, foi necessário realizar o scraping de dados do Linkedin e, posteriormente, automatizar a busca de informações na [plataforma do Insper](https://cgi.insper.edu.br/PortfolioDocente/) e na [plataforma Lattes](https://lattes.cnpq.br/).
+Todo o trabalho foi feito focando em atualizar/adicionar informações dos egressos relacionados ao Strictu Senso (Mestrado e Doutorado) do [Insper](https://www.insper.edu.br/). Para isso, foi necessário realizar o scraping de dados do Linkedin e, posteriormente, automatizar a busca de informações na [plataforma do Insper](https://cgi.insper.edu.br/PortfolioDocente/) e na [plataforma Lattes](https://lattes.cnpq.br/).
 ## Automação Linkedin:
 Para a automação do Linkedin, utilizei uma ferramenta disponível gratuitamente (Trial de 14 dias) chamada [PhantomBuster](https://phantombuster.com/). Essa ferramenta permite que você crie robôs que executam tarefas repetitivas no Linkedin, como por exemplo, acessar o perfil de um usuário e extrair informações como nome, cargo, empresa, etc. Leia a [documentação](https://phantombuster.com/automations/linkedin/3112/linkedin-profile-scraper/tutorial) disponível no site para saber a melhor maneira de se extrair os dados. 
 
 <font color="red">ATENÇÃO:</font> é fortemente recomendado que você crie contas (Linkedin) específicas para o scraping, uma vez que há grande probabilidade de banimento. Para tentar minimizar essas chances, recomendo utilizar o navegador [Firefox](https://www.mozilla.org/pt-BR/firefox/new/) e realizar o scraping de maneira fracionada. Por exemplo, se precisa de 100 perfis rode o programa 5 vezes utilizando 20 perfis por vez. Com isso, não fica "na cara" que é um bot executando a ação.
 ## Automação Plataforma Insper:
+<font color="red">NOTA IMPORTANTE:</font> Estes scripts são altamente mutáveis dentro dos sites, o que significa que podem não funcionar corretamente durante o período em que você os estiver utilizando. Recomenda-se consultar a [Documentação](https://selenium-python.readthedocs.io/) do Selenium para realizar ajustes caso ocorram problemas de funcionamento.
+
+
 Toda a automação feita dentro da [Plataforma Insper](https://cgi.insper.edu.br/PortfolioDocente/) para docentes foi realizada utilizando a linguagem de programação [Python](https://www.python.org/). Para isso, utilizaremos as seguintes bibliotecas:
 * [Selenium](https://selenium-python.readthedocs.io/): biblioteca utilizada para automatizar ações em navegadores web.
 ```bash
